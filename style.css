@@ -1,4 +1,28 @@
+#body {
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(39, 36, 36);
+}
 
+
+#displayArea {
+    width: 20vw;
+    height: 90vh;
+    left: 40vw;
+    top: 10px;
+    overflow-y: scroll;
+    word-wrap: break-word;
+}
+
+#QuestionInput {
+    width: 20vw;
+    height: 10px;
+    left: 40vw;
+    bottom: 5px;
+    border: 1px solid rgb(104, 6, 185);
+    padding: 5px;
+    background-color: rgb(100, 94, 94); 
+}
 
 
 
