@@ -8,25 +8,29 @@
 .container {
     display: flex;
     justify-content: center;
-    width: 30vw;
+    width: 50vw;
     color: rgb(255 255 255);
   }
 
 #displayArea {
     position: absolute;
-    width: 30vw;
+    width: 50vw;
     height: 80vh;
     padding: 5px;
     overflow-y: hidden;
     word-wrap: break-word;
     font-size: 1.2em; /* Increase the font size */
     line-height: 1.5em; /* Increase the line spacing */
-    
+
+}
+
+#displayArea:hover {
+  overflow-y: auto; /* Shows the scrollbar on hover */
     
 }
 
 #QuestionInput {
-    width: 30vw;
+    width: 50vw;
     height: 10px;
     border: 5px solid rgb(106 12 184);
     border-radius: 15px;
