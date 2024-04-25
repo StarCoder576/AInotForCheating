@@ -1,5 +1,9 @@
 
-
+function checkForEnter(event) {
+    if (event.key === 'Enter') {
+        AIResponse();
+    }
+}
 
 function AIResponse() {
     var inputElement = document.getElementById('QuestionInput');
