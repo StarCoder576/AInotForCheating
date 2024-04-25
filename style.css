@@ -19,6 +19,9 @@
     padding: 5px;
     overflow-y: hidden;
     word-wrap: break-word;
+    font-size: 1.2em; /* Increase the font size */
+    line-height: 1.5em; /* Increase the line spacing */
+    
     
 }
 
