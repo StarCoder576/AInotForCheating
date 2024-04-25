@@ -6,20 +6,29 @@
 
 
 #displayArea {
-    width: 20vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 30vw;
     height: 90vh;
     left: 40vw;
     top: 10px;
-    overflow-y: scroll;
+    overflow-y: hidden;
     word-wrap: break-word;
 }
 
 #QuestionInput {
-    width: 20vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 30vw;
     height: 10px;
     left: 40vw;
     bottom: 5px;
-    border: 1px solid rgb(104, 6, 185);
+    border: 5px solid rgb(104, 6, 185);
+    border-radius: 5px;
     padding: 5px;
     background-color: rgb(100, 94, 94); 
 }
