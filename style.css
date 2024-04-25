@@ -5,28 +5,24 @@
 }
 
 
-#displayArea {
+.container {
     display: flex;
-    flex-direction: column;
-    align-items: center;
     justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 30vw;
+  }
+
+#displayArea {
     width: 30vw;
     height: 90vh;
-    left: 40vw;
-    top: 10px;
     overflow-y: hidden;
     word-wrap: break-word;
 }
 
 #QuestionInput {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
     width: 30vw;
     height: 10px;
-    left: 40vw;
-    bottom: 5px;
     border: 5px solid rgb(104, 6, 185);
     border-radius: 5px;
     padding: 5px;
