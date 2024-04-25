@@ -2,6 +2,7 @@
 function checkForEnter(event) {
     if (event.key === 'Enter') {
         AIResponse();
+        runChat();
     }
 }
 
