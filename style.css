@@ -1,36 +1,34 @@
 #body {
-    width: 100vw;
-    height: 100vh;
-    background-color: rgb(39, 36, 36);
+    display: flex;
+    justify-content: center;
+    background-color: rgb(63 58 58);
 }
 
 
 .container {
     display: flex;
     justify-content: center;
-    align-items: center;
-    height: 100vh;
     width: 30vw;
+    color: rgb(255 255 255);
   }
 
 #displayArea {
+    position: absolute;
     width: 30vw;
-    height: 90vh;
+    height: 80vh;
+    padding: 5px;
     overflow-y: hidden;
     word-wrap: break-word;
+    
 }
 
 #QuestionInput {
     width: 30vw;
     height: 10px;
-    border: 5px solid rgb(104, 6, 185);
+    border: 5px solid rgb(106 12 184);
     border-radius: 15px;
     padding: 15px;
     background-color: rgb(100, 94, 94); 
+    position: absolute;
+    bottom: 10px;
 }
-
-
-
-
-
-
