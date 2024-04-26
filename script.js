@@ -12,6 +12,7 @@ function AIResponse() {
 }
 
 
+const GoogleGenerativeAI = window.GoogleGenerativeAI;
 
 
 
