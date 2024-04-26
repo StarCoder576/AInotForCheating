@@ -75,8 +75,8 @@ const {
       
     });
   
-    let result = document.getElementById('QuestionInput');
-    let response = result.response;
+    const result = document.getElementById('QuestionInput');
+    const response = result.response;
     displayArea.innerHTML += response.text() + '<br>';
     inputElement.value = ''; // Clear the input box after adding text
   }
