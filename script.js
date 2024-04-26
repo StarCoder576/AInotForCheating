@@ -59,8 +59,9 @@ const {
     const chat = model.startChat({
       generationConfig,
       safetySettings,
- /*
+ 
       history: [
+        /*
         {
           role: "user",
           parts: [{ text: "Howdy"}],
@@ -69,8 +70,9 @@ const {
           role: "model",
           parts: [{ text: "Howdy! How can I help you today?"}],
         },
+        */
       ],
-      */
+      
     });
   
     let result = document.getElementById('QuestionInput');
