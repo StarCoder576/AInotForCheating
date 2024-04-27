@@ -5,15 +5,12 @@ function checkForEnter(event) {
     }
 }
 
+
 function AIResponse() {
     var inputElement = document.getElementById('QuestionInput');
     var displayArea = document.getElementById('displayArea');
     displayArea.innerHTML += inputElement.value + '<br>';
 }
-
-
-const GoogleGenerativeAI = window.GoogleGenerativeAI;
-
 
 
 
