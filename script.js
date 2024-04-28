@@ -19,7 +19,7 @@ function AIResponse() {
   const API_KEY = "AIzaSyCJ26X7BEoWyiWpq0yvca58mylKZxPqbRI";
   
   async function runChat() {
-    const genAI = new GoogleGenerativeAI(API_KEY);
+    const genAI = new window.GoogleGenerativeAIModule.GoogleGenerativeAI(API_KEY);    
     const model = genAI.getGenerativeModel({ model: MODEL_NAME });
   
     const generationConfig = {
